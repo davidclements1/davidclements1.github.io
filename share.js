@@ -23,12 +23,13 @@ $(function() {
     
     $('.twitter').on('click', function() {
         var loc = encodeURIComponent('http://bit.ly/eatoutsafely'),
-                title = "Pick restaurants with good health scores before you eat out. http://bit.ly/eatoutsafely #washyourhands",
+                title = "Pick restaurants with good health scores before you eat out.",
+                hashtags = "washyourhands",
                 w = 580, h = 300,
                 left = (screen.width/2)-(w/2),
                 top = (screen.height/2)-(h/2);
                 
-            window.open('http://twitter.com/share?text=' + title + '&url=' + loc, '', 'height=' + h + ', width=' + w + ', top='+top +', left='+ left +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+            window.open('http://twitter.com/share?text=' + title + '&hashtags=' + hashtags + '&url=' + loc, '', 'height=' + h + ', width=' + w + ', top='+top +', left='+ left +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
     });
     
     $('.play').on('click', function() {
