@@ -33,7 +33,7 @@ $(function() {
     });
     
     $('.play').on('click', function() {
-        window.location.href = "http://kck.st/TH0NAN";
+        window.location.href = "http://restaurantreport.co";
     });
     
 });
