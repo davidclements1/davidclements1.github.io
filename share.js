@@ -22,8 +22,8 @@ $(function() {
     });
     
     $('.twitter').on('click', function() {
-        var loc = encodeURIComponent('http://bit.ly/somawater'),
-                title = "Beautifully innovative all-natural water filters by Soma — ",
+        var loc = encodeURIComponent('http://bit.ly/eatoutsafely'),
+                title = "Pick restaurants with good health scores before you eat out. http://bit.ly/eatoutsafely #washyourhands",
                 w = 580, h = 300,
                 left = (screen.width/2)-(w/2),
                 top = (screen.height/2)-(h/2);
